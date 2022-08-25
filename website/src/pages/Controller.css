@@ -1,0 +1,22 @@
+/* This css file is for styling Controller.js file*/
+
+* { /*Both margin and padding of the js file which import this css file are 0. */
+    margin: 0;
+    padding: 0;
+  }
+  
+.Controller { /* texts are aligned in center */
+    text-align: center;
+}
+
+  
+.Controller-header {
+    background-color: #5d85d6; /* Background color is blue */
+    min-height: 100vh; /* minimum height of the layout is 100% viewpoint */
+    display: flex; /*  This use flexbox module */
+    flex-direction: column; /* The flexible items are displayed vertically, as a column */
+    align-items: center; /* the items are aligned in center */
+    justify-content: center; /* Pack items around the center */
+    font-size: calc(10px + 2vmin); /* define font size by calculating */
+    color: white; /* color of the text is white*/
+}

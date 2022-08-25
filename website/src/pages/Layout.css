@@ -1,0 +1,39 @@
+/* This css file is for styling Layout.js file*/
+
+* { /*Both margin and padding of the js file which import this css file are 0. */
+    margin: 0;
+    padding: 0;
+  } 
+
+  
+  .Layout-header { 
+    background-color: #5d85d6; /* Background color is blue */
+    min-height: 20vh; /* minimum height of the layout is 20% viewpoint */
+    display: flex; /*  This use flexbox module */
+    flex-direction: column; /* The flexible items are displayed vertically, as a column */
+    font-size: calc(10px + 2vmin); /* font size is calculated */
+    color: white; /* text color is white */
+  }
+  
+
+.Layout-b1{ /* the position of this button1 is top right conner with some space */
+    position: absolute;
+    top:0px;
+    right:10px;
+}
+.Layout-b2{ /* the position of this button1 is top and right conner with 210 pixel space from right */
+    position: absolute;
+    top:0px;
+    right:210px;
+}
+.Layout-b3{ /* the position of this button1 is top and right conner with 350 pixel space from right */
+    position: absolute;
+    top:0px;
+    right:350px;
+}
+.Layout-b4{ /* the position of this button1 is top and right conner with 460 pixel space from right */
+    position: absolute;
+    top:0px;
+    right:460px;
+}
+  

@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<script>
+    window.addEventListener("keydown", function (event) { // when a key is pressed run this function
+        if (event.defaultPrevented) {
+            return; // Do nothing if the event was already processed
+        }
+
+        switch (event.key) { //switch based on the pressed key
+            case "w":
+                myFunction1(); //run drive_forward
+                break;
+            case "a":
+                myFunction2(); // run turn_left
+                break;
+            case "d":
+                myFunction3(); // run turn_left
+                break;
+            case "s":
+                myFunction4(); // run drive_backward
+                break;
+            case "ArrowUp":
+                myFunction5(); // run tilt_up
+                break;
+            case "ArrowLeft":
+                myFunction6(); // run pan_left
+                break;
+            case "ArrowRight":
+                myFunction7(); // run pan_right
+                break;
+            case "ArrowDown":
+                myFunction8(); // run tilt_down
+                break;
+            case "Alt":
+                myFunction9(); // run drive_stop
+                break;
+            case "Shift":
+                myFunction10(); // run cam_reset
+                break;
+            default:
+                return; // Quit when this doesn't handle the key event.
+        }
+
+        // Cancel the default action to avoid it being handled twice
+        event.preventDefault();
+    }, true);
+
+
+    function myFunction1() { //run drive_forward
+        var x = window.location.href; // obtain current url address
+        window.location.href = x + "drive_forward"; // add url extension drive_forward
+        ////var i = window.open(x + "drive_forward");
+        //i.blur();
+        //i.close();
+    }
+    function myFunction2() { //run turn_left
+        var x = window.location.href; // obtain current url address
+        window.location.href = x + "turn_left"; // add url extension turn_left
+        //var i = window.open(x + "turn_left");
+        //i.blur();
+        //i.close();
+    }
+    function myFunction3() { //run turn_right
+        var x = window.location.href; // obtain current url address
+        window.location.href = x + "turn_right"; // add url extension turn_right
+        //var i = window.open(x + "turn_right");
+        //i.blur();
+        //i.close();
+    }
+    function myFunction4() { //run drive_backward
+		var x = window.location.href; // obtain current url address
+        window.location.href = x + "drive_backward"; // add url extension drive_backward
+        //var i = window.open(x + "drive_backward");
+        //i.blur();
+        //i.close();
+    }
+    function myFunction5() { //run tilt_up
+        var x = window.location.href; // obtain current url address
+        window.location.href = x + "tilt_up"; // add url extension tilt_up
+        //var i = window.open(x + "tilt_up");
+        //i.blur();
+        //i.close();
+    }
+    function myFunction6() { //run pan_left
+        var x = window.location.href; // obtain current url address
+        window.location.href = x + "pan_left"; // add url extension pan_left
+        //var i = window.open(x + "pan_left");
+        //i.blur();
+        //i.close();
+    }
+    function myFunction7() { //run pan_right
+        var x = window.location.href; // obtain current url address
+        window.location.href = x + "pan_right"; // add url extension pan_right
+        //var i = window.open(x + "pan_right");
+        //i.blur();
+        //i.close();
+    }
+    function myFunction8() { //run tilt_down
+        var x = window.location.href; // obtain current url address
+        window.location.href = x + "tilt_down"; // add url extension tilt_down
+        //var i = window.open(x + "tilt_down");
+        //i.blur();
+        //i.close();
+    }
+    function myFunction9() { //run drive_stop
+        var x = window.location.href; // obtain current url address
+        window.location.href = x + "drive_stop"; // add url extension drive_stop
+        //var i = window.open(x + "drive_stop");
+        //i.blur();
+        //i.close();
+    }
+
+    function myFunction10() { //run cam_reset
+        var x = window.location.href; // obtain current url address
+        window.location.href = x + "cam_reset"; // add url extension cam_reset
+        //var i = window.open(x + "drive_stop");
+        //i.blur();
+        //i.close();
+    }
+
+</script>
+
+<style>
+/*default style*/
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    line-height: 1.3;
+}
+
+/*general button style*/
+.button {
+    background-color: #000000;
+    border: none;
+    height: 5.5%;
+    width: 2.7%;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/*W button style*/
+.button1 {
+    top: 42.5%;
+    left: 8.65%;
+    font-size: 2vmin;
+}
+
+/*A button style*/
+.button2 {
+    top: 48.6%;
+    left: 5.9%;
+    font-size: 2vmin;
+}
+
+/*D button style*/
+.button3 {
+    top: 48.6%;
+    left: 11.7%;
+    font-size: 2vmin;
+}
+
+/*S button style*/
+.button4 {
+    top: 54.7%;
+    left: 8.75%;
+    font-size: 2vmin;
+}
+
+/*↑ button style*/
+.button5 {
+    top: 20.1%;
+    left: 88.42%;
+    font-size: 2vmin;
+}
+
+/*← button style*/
+.button6 {
+    top: 26.3%;
+    left: 85.58%;
+    font-size: 2vmin;
+}
+
+/*→ button style*/
+.button7 {
+    top: 26.33%;
+    left: 91.48%;
+    font-size: 2vmin;
+}
+
+/*↓ button style*/
+.button8 {
+    top: 32.45%;
+    left: 88.55%;
+    font-size: 2vmin;
+}
+
+/*STOP button style*/
+.button9 {
+    top: 22.45%;
+    left: 7%;
+    font-size: 1.5vmin;
+    height: 13%;
+    width: 7%;
+}
+
+/*RESET button style*/
+.button10 {
+    top: 44.5%;
+    left: 86%;
+    font-size: 1.5vmin;
+    height: 13%;
+    width: 7%;
+}
+
+</style>
+
+<html>
+
+ <head>
+    <title></title>
+ </head>
+
+ <body>
+    <div class="container">
+        <header>
+            
+        </header>
+        <main>
+            <img src="https://cdn.pixabay.com/photo/2021/07/16/14/22/nintendo-switch-6470977__340.png" style="width:94%;height:97%;top:0;left:3%;position:absolute"> <!-- instantiate game pad background png -->
+            <iframe src="http://127.0.0.1:4000" width="67.69%" height="81.5%" style="border:20px solid black;top:8.1%;left:16.17%;position:absolute"></iframe> <!-- instantiate video feed frame -->
+            <button class="button button1" onclick="myFunction1()">W</button> <!-- instantiate W button -->
+            <button class="button button2" onclick="myFunction2()">A</button> <!-- instantiate A button -->
+            <button class="button button3" onclick="myFunction3()">D</button> <!-- instantiate D button -->
+            <button class="button button4" onclick="myFunction4()">S</button> <!-- instantiate S button -->
+            <button class="button button5" onclick="myFunction5()">↑</button> <!-- instantiate ↑ button -->
+            <button class="button button6" onclick="myFunction6()">←</button> <!-- instantiate ← button -->
+            <button class="button button7" onclick="myFunction7()">→</button> <!-- instantiate → button -->
+            <button class="button button8" onclick="myFunction8()">↓</button> <!-- instantiate ↓ button -->
+            <button class="button button9" onclick="myFunction9()">STOP</button> <!-- instantiate STOP button -->
+            <button class="button button10" onclick="myFunction10()">RESET</button> <!-- instantiate RESET button -->
+        </main>
+        <footer>
+            
+        </footer>
+    </div>
+ </body>
+
+</html>
+

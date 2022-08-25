@@ -1,0 +1,15 @@
+/* This css file is for styling index.js file*/
+
+body {
+  margin: 0; /* There's no margin */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; /* font for an element */
+  -webkit-font-smoothing: antialiased; /* Smooth the font */
+  -moz-osx-font-smoothing: grayscale; /* Render text with grayscale antialiasing */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace; /* font for an element */
+}

@@ -1,0 +1,22 @@
+/* This css file is for styling Objd.js file*/
+
+* { /*Both margin and padding of the js file which import this css file are 0. */
+    margin: 0;
+    padding: 0;
+  }
+  
+.Objd { /* The section that called this className, texts are aligned in center.*/
+    text-align: center;
+}
+
+  
+.Objd-header {
+    background-color: #5d85d6; /* color of the backgroud is blue */
+    min-height: 100vh; /* minimum height of the one who called this className is 100. */
+    display: flex; /*  This use flexbox module */
+    flex-direction: column; /* The flexible items are displayed vertically, as a column */
+    align-items: center; /* the items are aligned in center */
+    justify-content: center; /* Pack items around the center */
+    font-size: calc(10px + 2vmin); /* define font size by calculating */
+    color: white; /* color of the text is white*/
+}
