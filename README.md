@@ -3,7 +3,7 @@
 ## **Overview**
 In today's world, video surveillance is indispensable for enhancing safety. However, the limitations of stationary systems led us to conceptualize a more mobile solution. We've developed A remotely-controlled robot car, enhanced with a camera. It employs machine learning to detect objects and people, sending this data to the user through an intuitive web interface.
 
-## **Key Functionalities**
+## **Key Functionalities** 
 - **Remote Access:** Operate and view from any networked device.
 - **Advanced Steering:** Direct the robot's trajectory and speed via the web interface.
 - **Camera Flexibility:** Adjust camera angles (pan/tilt) remotely.
