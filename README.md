@@ -1,7 +1,7 @@
 # **IoT Smart Surveillance Robot**
 
 ## **Overview**
-In today's world, video surveillance is indispensable for enhancing safety. However, the limitations of stationary systems led us to conceptualize a more mobile solution. We've developed A remotely-controlled robot car, enhanced with a camera. It employs machine learning to detect objects and people, sending this data to the user through an intuitive web interface.
+In today's world, video surveillance is indispensable for enhancing safety. However, the limitations of stationary systems led us to conceptualize a more mobile solution. We've developed a remotely-controlled robot car, enhanced with a camera. It employs machine learning to detect objects and people, sending this data to the user through an intuitive web interface.
 
 ## **Key Functionalities** 
 - **Remote Access:** Operate and view from any networked device.
@@ -24,7 +24,7 @@ The rise of AI in everyday technologies, especially in the realm of security and
 
 - Migration to React: Initially began with HTML but transitioned to React, altering our approach to server hosting and port assignment. Found a solution by directly writing the port number to the JSON package file.
 
-- URL Redirection: Struggled with linking React.js files and thought of using Node.js for redirection. Initially used localhost for redirection. Overcame this challenge by leveraging react-router, transitioning fully to a React-based website.
+- URL Redirection: Struggled with linking React.js files and thought of using Node.js for redirection. Initially used localhost for redirection. Overcame this challenge by leveraging react-router, transitioning almost fully to a React-based website.
 
 - Server Memory Reduction: React.js's significant memory usage reduced available server space. Tried clearing the cache and inadvertently removed critical bin files, causing errors. Resolved by restoring the files and executing clean and update commands on Linux.
 
