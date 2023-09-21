@@ -22,7 +22,7 @@ The rise of AI in everyday technologies, especially in the realm of security and
 ## **Challenges & Solutions**
 **Website Development & Hosting:**
 
-- Migration to React: Initially began with Node.js and HTML but transitioned to React, altering our approach to server hosting and port assignment. Found a solution by directly writing the port number to the JSON package file.
+- Migration to React: Initially began with HTML but transitioned to React, altering our approach to server hosting and port assignment. Found a solution by directly writing the port number to the JSON package file.
 
 - URL Redirection: Struggled with linking React.js files and thought of using Node.js for redirection. Initially used localhost for redirection. Overcame this challenge by leveraging react-router, transitioning fully to a React-based website.
 
