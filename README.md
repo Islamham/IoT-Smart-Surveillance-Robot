@@ -1,7 +1,7 @@
 # **IoT Smart Surveillance Robot**
 
 ## **Overview**
-In today's world, video surveillance is indispensable for enhancing safety. However, the limitations of stationary systems led me to conceptualize a more mobile solution. We've developed A remotely-controlled robot car, enhanced with a camera. It employs machine learning to detect objects and people, sending this data to the user through an intuitive web interface.
+In today's world, video surveillance is indispensable for enhancing safety. However, the limitations of stationary systems led us to conceptualize a more mobile solution. We've developed A remotely-controlled robot car, enhanced with a camera. It employs machine learning to detect objects and people, sending this data to the user through an intuitive web interface.
 
 ## **Key Functionalities**
 - **Remote Access:** Operate and view from any networked device.
@@ -51,7 +51,7 @@ While we aimed for features like activity logs and custom ML implementations, ti
 **React & CSS**: Powers the front-end. The `index.js` file outlines the web pages, drawing from other React files and react-router. The integration of JSX makes the design fluid, allowing for HTML within JavaScript.
 
 ## **2. Back-end Technologies**
-**Node.js & React**: These technologies support the backend framework. I've set up the HTTP server with Node.js, redirecting default port numbers in React's JSON package file to port 80. IP-tables have been crucial for managing port conflicts.
+**Node.js & React**: These technologies support the backend framework. We've set up the HTTP server with Node.js, redirecting default port numbers in React's JSON package file to port 80. IP-tables have been crucial for managing port conflicts.
 
 ## **3. Front-end Design and Implementation**
 The design is crafted with the end-user in mind:
