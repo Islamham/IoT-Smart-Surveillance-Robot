@@ -1,5 +1,9 @@
 # **IoT Smart Surveillance Robot**
 
+[View images of the robot](https://imgur.com/a/ByL4b0q)
+
+[View video demo of the robot](https://imgur.com/a/Ll9a63I)
+
 ## **Overview**
 In today's world, video surveillance is indispensable for enhancing safety. However, the limitations of stationary systems led us to conceptualize a more mobile solution. We've developed a remotely-controlled robot car, enhanced with a camera. It employs machine learning to detect objects and people, sending this data to the user through an intuitive web interface.
 
@@ -88,12 +92,6 @@ Driving the IoT control through a Django app:
 - time
 - sys
 - Django
-
-# **Links**
-
-[View images of the robot](https://imgur.com/a/ByL4b0q)
-
-[View video demo of the robot](https://imgur.com/a/Ll9a63I)
 
 # **File Structure**
 
