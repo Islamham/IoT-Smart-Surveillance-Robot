@@ -21,7 +21,7 @@ In today's world, video surveillance is indispensable for enhancing safety. Howe
 - **Object Detection Mode:** Activate live feed with object detection for enhanced surveillance.
 
 ## **Motivation Behind The Project**
-The rise of AI in everyday technologies, especially in the realm of security and transport, signals an era of unprecedented advancements. Today, modern automobiles are leveraging object detection to enhance safety, avoid collisions, and even pave the way for autonomous driving. With this backdrop, understanding and innovating within the sphere of surveillance technology is more than just a personal passion—it's a glimpse into the future. This project not only seeks to address limitations in contemporary surveillance systems but also aspires to contribute to the evolving landscape of AI-powered solutions, setting a foundation for the next wave of technological innovations.
+The integration of AI into security and transport is shaping the future of technology. Modern automobiles increasingly rely on object detection for improved safety and collision prevention, serving as building blocks for autonomous driving. This project focuses on addressing limitations in contemporary surveillance systems, such as mobility, accuracy, responsiveness and scalability, to enhance their effectiveness. By emphasizing practical applications of AI, it aims to contribute meaningful advancements to the field and establish a strong foundation for future innovations.
 
 ## **Challenges & Solutions**
 **Website Development & Hosting:**
